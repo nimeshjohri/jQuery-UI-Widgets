@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>jQuery UI Widgets</title>
+<head>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" type="text/css" href="cs/slidorion.css" />
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css\ui-lightness\jquery-ui-1.10.4.css">
+  <script src="jquery.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="jquery-ui-1.10.4.custom.js"></script>
+  <script src="accord.js"></script>
+  <link rel="demos.css">
+  <script src="easing.js"></script>
+<script src="slidorion.js"></script>
+</head>
+<body class="bo">
+<form>
+<div class="wrapper">
+<div id="header">
+<b>Contact Form</div>
+<div id="accordion">
+  <h3 class="1">Enter your data</h3>
+  <div>
+ <fieldset>
+ <legend>Fill your details</legend>
+First Name: <input type="text" class="hi" id="fname"><br><br>
+Last Name: <input type="text" class="hi" id="lname"><br><br>
+Date: <input type="text" id="datepicker" class="hi"><br><br>
+Phone no:<input type="text" class="hi" id="pno"><br><br>
+<input type="button" id="btnOpenDialog" value="Submit" />
+<div id="dialog-confirm"></div>
+ </fieldset>
+ </form>
+  </div>
+  <h3>Saved Data</h3>
+  <div>
+  <fieldset>
+   <table class="tab" cellspacing="30">
+ <tr>
+  <td><input type="checkbox" class="main"></td>
+  <td class="del" id="dfname">Firstname</td>
+  <td class="del" id="dlname">Lastname</td>		
+  <td class="del" id="dadd">Date</td>
+  <td class="del" id="dpno">Phone no</td>
+ </tr>
+ </table>
+ <input type="button" class="deletedata" value="Delete" id="delete">
+  </div>
+  </fieldset>
+  <h3>Deleted Details</h3>
+  <div>
+  <table class="table1" cellspacing="30">
+ <tr>
+   <td></td>
+   <td>Firstname</td>
+   <td>Lastname</td>		
+   <td>Address</td>
+   <td>Phone no</td>
+</tr>
+  </table>
+  </div>
+<h3>My previous assignments</h3>
+<div>
+<div id="draggable" class="content">
+<div id="slidorion" class="slidorion" >
+    <div class="slider">
+	
+        <div class="slide"><img class="google" src="google.jpg" /></div>
+        <div class="slide"><img class="vor" src="vor.jpg" /></div>
+        <div class="slide"><img class="agile" src="agile1.jpg" /></div>
+    </div>
+
+    <div class="accordion">
+        <div class="header">Google</div>
+        <div class="content">Sample Google Page</div>
+        <div class="header">VoR</div>
+        <div class="content">A page dedicated to a popular blog View of Reality</div>
+        <div class="header">Agile Cafe</div>
+        <div class="content">A sample poster of Agile Cafe 2014, desgined by me</div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+Copyrights 2014 @ Nimesh. All rights reserved.
+</body>
+</html>

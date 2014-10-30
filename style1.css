@@ -1,0 +1,73 @@
+.hi
+{
+position:absolute;
+margin-left:30px;
+}
+#lname
+{
+position:absolute;
+margin-left:35px;
+}
+#datepicker
+{
+position:absolute;
+margin-left:84px;
+}
+#pno
+{
+position:absolute;
+margin-left:49px;
+}
+#header
+{
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+	color: rgba(255,255,255,0.7);
+	font: 35px 'ChunkFiveRegular';
+	}
+ #content
+{
+	border:2px solid;
+	height:560px;
+	font-size:17px;
+	color:white;
+	}
+	.content
+	{
+	
+	}
+	.vor
+	{
+	height:450px;
+	width:580px;
+	}
+	.google
+	{
+	height:500px;
+	width:580px;
+	}
+	.agile
+	{
+	height:450px;
+	width:580px;
+	}
+ #footer
+{
+	color:white;
+	text-align:center; 
+	margin-top:115px;
+}
+.wrapper
+{
+height:590px;
+}
+.bo
+{
+background-color:black;
+}
+
+  .link
+{
+  color:#FFFFFF;
+  text-decoration:none;
+  
+}
